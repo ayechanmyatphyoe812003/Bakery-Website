@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Kalam:wght@300;400;700&family=Patrick+Hand&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,200;0,300;0,500;1,200&family=Satisfy&family=Source+Sans+Pro:ital,wght@0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body {
+    
+    background-color: black;
+}
+
+.foodmainpage {
+    overflow-x: hidden;
+    margin: 20px 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.main {
+    display: inline;
+}
+.left h1 {
+    font-size: 2.5rem;
+}
+
+.left span {
+    padding-left: 30px;
+    font-size: 2.9rem;
+    color: peru;
+}
+.content {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 130;
+}
+
+
+
+.homepic {
+    float: right;
+    width: 450px;
+    height: 450px;
+}
+
+.read {
+    font-size: 1rem;
+    border: 2px solid peru;
+    padding: 10px;
+    background-color: black;
+
+}
+
+.read a {
+    text-decoration: none;
+}
+
+.read a:hover {
+    color: white;
+    background-color: peru;
+    /**/
+}
+.foodabout {
+    margin: 0 50px;
+}
+.headingAbout {
+    text-align: center;
+    padding:40px 0 ;
+    
+    background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headingAbout h1 {
+    font-weight: 300px;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.headingAbout p {
+    font-weight: 300px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.aboutbody {
+    margin-top: 40px;
+}
+
+.aboutbody h1{
+    font-size: 2.5rem;
+
+}
+
+.part {
+    color: rgb(255, 211, 168);
+}
+.logo {
+    width: 10%;
+    
+}
+.aboutbody span {
+    font-size: 2.9rem;
+    color: peru;
+}
+
+.aboutpic {
+    float: right;
+}
+
+.part1{
+    float: left;
+    width: 400px;
+}
+
+.a {
+    clear: right;
+}
+.b {
+    color: rgb(255, 211, 168);;
+}
+.menu {
+    margin-top: 100px;
+    position: relative;
+    left: 40%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.menucontent {
+    text-align: justify;
+}
+.menu span {
+    padding-left: 30px;
+    color: peru;
+}
+.Menu {           
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 30px;
+}
+.Menu h2 {
+    color: rgb(255, 208, 161);
+}
+.menupics {
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+    transition: .9s;
+    border: 1px solid black;
+    
+}
+
+.menupics:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    
+}
+.Menu p {
+    font-weight: 130;
+    letter-spacing: 1px;
+}
+
+.menub {
+    margin-top: 70px;
+}
+.Explore {
+    font-size: 1rem;
+    padding: 7px 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid peru;
+}
+
+.Explore a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: peru;
+    color: black;
+}
+
+.cakeheader {
+    background-image: url("cakeheader.jpg");
+    background-repeat: no-repeat;
+    padding: 80px;
+    background-position: 10px;
+}
+.cookieheader {
+    background-image: url("maincookies.jpg");
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-position: right;
+}
+
+.snackheader {
+    background-image: url("mains.jpg");
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+
+.breadheader {
+    background-image: url("mainbread.jpg");
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.donutheader {
+    background-image: url("maindonuts.jpg");
+    background-repeat:no-repeat;
+    padding: 70px;
+}
+
+.browineheader {
+    background-image: url("mainb.jpg");
+    background-repeat:no-repeat;
+    padding: 70px;
+    background-position: top right;
+}
+
+.additionalheader {
+    background-image: url("shop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.shop {
+    letter-spacing: 5px;
+    font-weight: 1300;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.milkey {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.d1 {
+    font-size: 2rem;
+    padding-left: 700px;
+}
+.d2 {
+    padding-left: 700px;
+}
+
+.cafeheader {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.specialheader {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.Dryheader{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.Freshheader {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.cakeitems {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+
+.cakeitems a {
+    text-decoration: none;
+}
+
+.cakeitems a:hover {
+    color: peru;
+}
+
+
+
+.cakepics {
+    width: 200px;
+    position: relative;
+}
+
+.topimage {
+    width: 200px;
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    opacity: 1;
+}
+
+.price {
+    display: inline-block;
+    position: relative;
+    padding-right: 8px;
+    background-color: rgba(79, 40, 0, 0.737);
+    top: -200px;
+    
+}
+
+.lb {
+    position: relative;
+    background-color: black;
+    border: 1px outset rgb(255, 204, 133);
+    margin-left: 50px;
+}
+
+.Onelb {
+    margin-right: 0px;
+}
+
+.Cart {
+    background-color: black;
+    border: 1px inset peru;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 5px 30px;
+    font-size: 1.1rem;
+}
+
+.cakenames {
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(255, 235, 215);
+}
+
+.specialcakes {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.bocard {
+    margin-top: 180px;
+}
+.flip-card {
+    margin-left: 30px;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    /*border: 1px solid peru;*/
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(50, 25, 0);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.backtext {
+    line-height: 40px;
+    padding: 1px;
+}
+
+/*.foot {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+.footer {
+    margin-top: 200px;
+    padding: 70px 0;
+    
+    background-color: rgba(44, 22, 0, 0.66);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer-col ul li {
+    margin-left: -38px;
+    list-style: none;
+    line-height: 40px;
+}
+a {
+    text-decoration: none;
+}
+.footer-col ul li a:hover {
+    color: rgb(251, 194, 137);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 1.2rem;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:  black;
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+.social-links {
+    letter-spacing: 5px;
+}
+
